@@ -95,7 +95,7 @@ fun main() {
     try {
         val livro1 = Livro("Dom Casmurro", "Machado de Assis", 1899)
         livro1.exibirFicha()
-        val livroInvalido = Livro("Futuro", "Desconhecido", 2050) // Lança exceção
+        val livroInvalido = Livro("Futuro", "Desconhecido", 2050) 
     } catch (e: Exception) {
         println("Erro ao criar livro: ${e.message}")
     }
@@ -110,8 +110,8 @@ fun main() {
     println("\n--- Teste Questão 3 ---")
     val v = Veiculo("Yamaha", "MT-07")
     val carro = Carro("Toyota", "Corolla", 4)
-    exibirDados(v)     // Polimorfismo em ação
-    exibirDados(carro) // Polimorfismo em ação
+    exibirDados(v)    
+    exibirDados(carro) 
 
     println("\n--- Teste Questão 4 ---")
     val g = Gerente("Carlos", 5000.0, 1500.0)
